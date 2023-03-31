@@ -1,0 +1,175 @@
+body {
+  text-align: center;
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: 'New Rocker', cursive;
+}
+
+p{
+  font-family: 'Climate Crisis', cursive;
+  color: #E7B10A;
+  width: 175px;
+  font-size: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+footer {
+  font-family: sans-serif;
+}
+
+/***********************************Designs******************************************/
+
+.title{
+  width: 350px;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  float: left;
+}
+
+.baja{
+  position: relative;
+  width: 900px;
+  padding-top: 25px;
+}
+
+.drum {
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  font-weight: 900;
+  color: yellow;
+    
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+
+/************************************Functionalities*************************************/
+
+
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+
+/*************************************KEYS*****************************************/
+
+.w {
+  position: absolute;
+  top: 165px;
+  left: 585px;
+}
+
+.a {
+  position: absolute;
+  top: 400px;
+  right: 835px;
+}
+
+.s {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 318px;
+  right: 630px;
+}
+
+.d {
+  position: absolute;
+  bottom: 285px;
+  right: 395px;
+}
+
+.j {
+  position: absolute;
+  bottom: 110px;
+  right: 250px;
+}
+
+.k {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 105px;
+  right: 680px;
+}
+
+.i {
+  position: absolute;
+  top: 150px;
+  right: 210px;
+
+}
+
+/**************************************resolution****************************************/
+
+@media (max-width : 1500px){
+
+  .baja{
+    width: auto;
+  }
+
+
+  .w {
+    position: static;
+  }
+  
+  .a {
+    position: static;
+  }
+  
+  .s {
+    position: static;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .d {
+    position: static;
+  }
+  
+  .j {
+    position: static;
+  }
+  
+  .k {
+    position: static;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .i {
+    position: static;
+  }
+}
+
+/**********************************mobile**************************************/
+
+@media (max-device-width: 450px) and (min-device-width:250px){
+  
+  body .title{
+    float:none;
+    text-align: center;
+    margin: auto;
+  }
+  .punchline{
+    margin: auto;
+  }
+
+  .cp{
+    position: relative;
+    top: 1000px;
+  }
+
+}
